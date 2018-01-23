@@ -9,10 +9,6 @@ describe('binary function for numeric arguments', () => {
     expect(binary(-3, -4)).toBe(-7)
   })
 
-  test('test for undefined as one of arguments', () => {
-    expect(binary(2, undefined)).toBe(NaN)
-  })
-
   test('test for decimal numbers', () => {
     expect(binary(0.1, 0.2)).toBeCloseTo(0.3)
   })

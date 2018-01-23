@@ -1,4 +1,4 @@
-identity = require('./identity.js')
+const identity = require('./identity.js')
 
 describe('my identity function', () => {
   test('takes and returns same number', () => {
