@@ -16,6 +16,10 @@ describe('binary function for numeric arguments', () => {
   test('test for decimal numbers', () => {
     expect(binary(0.1, 0.2)).toBeCloseTo(0.3)
   })
+
+  // test('return type is "number" for arguments of type "numeber"', () => {
+  //   expect(binary(3, -4)).toBeInstanceOf('number)
+  // })
 })
 
 describe('binary function for string arguments', () => {
