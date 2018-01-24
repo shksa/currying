@@ -1,11 +1,11 @@
 let accumulator = require('./long_delay_invocation.js')
 
 describe('return type tests', () => {
-  test('returns the same function when called with a valid argument', () => {
+  test('returns a function when called with a valid argument', () => {
     expect(typeof accumulator(2)).toBe('function')
   })
 
-  test('returns a number when called with no argument or undefined', () => {
+  test('returns a number when called with no argument or with undefined', () => {
     expect(typeof accumulator()).toBe('number')
   })
 })
