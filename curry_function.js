@@ -9,7 +9,7 @@ const curry = (func) => {
     }
     const f2 = (...args2) => {
       const args3 = args1.concat(args2)
-      return func(...args3)
+      return f1(...args3)
     }
     return f2
   }
