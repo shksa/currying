@@ -2,6 +2,9 @@ const callAndApply = require('./call_and_apply.js')
 
 const [caller, applier] = [callAndApply.caller, callAndApply.applier]
 
+// add cases for checking if update method is called
+// add cases for ---get this info---
+
 
 describe('verifying call and apply functionalities', () => {
   function update(name, age, tShirtSize) {
